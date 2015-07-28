@@ -1,7 +1,7 @@
 body{
 	background:#333333;
 	margin:0px;
-	font:10pt;
+	font-size:10pt;
 	color:#6a6969;
 }
 
@@ -10,10 +10,11 @@ body{
 	height:100px;
 	background-color:#222222;
 	font-size: 20px;
+	font-family: Arial;
 	position: fixed;
 	padding:0px 50px;
 	left:50%;
-	margin: 0 0 0 -475px;
+	margin: 0 0 0 -450px;
 }
 
 #header #logo{
@@ -22,8 +23,9 @@ body{
 }
 
 #header #menu{
+	padding-top:50px;
 	float:right; 
-	padding-top:50px;}
+}
 
 #header #menu li{
 	float:left;
@@ -40,4 +42,48 @@ body{
 #header #menu a:hover{
 	color:#979797;
     text-decoration:underline;
+}
+
+#container{
+	width:900px;
+	margin:0px auto -20px auto;
+	background:#444444;
+	overflow:auto;
+	padding-bottom:100px;
+	padding-top:100px;
+}
+
+#container hr{
+	color: #000000;
+}
+
+#footer{
+	width:900px;
+	height:90px;
+	background-color:#222222;
+	font-size: 20px;
+	font-family: Arial;
+	margin:0px auto 0px auto;
+}
+
+#footer p{
+	padding-top:40px;
+	padding-left:250px;
+
+}
+
+#footer #social{
+	float:left; 
+	padding-top:0px;
+}
+#footer #social li{
+	float:left; 
+	list-style:none; 
+	margin-left:10px;
+}
+
+h1{
+	font: 40px 'Bree Serif', Georgia, serif; 
+	color:#DDDDDD;
+	padding-left: 50px;
 }
