@@ -1,0 +1,40 @@
+body{
+	background:#333333;
+	margin:0px;
+	font:10pt;
+	color:#6a6969;
+}
+
+#header{
+	width:800px;
+	height:100px;
+	background-color:#222222;
+	font-size: 20px;
+	padding:0px 50px;
+	position: fixed;
+	margin: 0 0 0 100px;
+}
+
+#header #logo{
+	padding-top:40px;
+	float:left;
+}
+
+#header #main-menu{float:right; padding-top:45px;}
+
+#header #main-menu li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 40pt;
+}
+
+#header #main-menu a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#header #main-menu a:hover{
+	color:#979797;
+    text-decoration:underline;
+}
