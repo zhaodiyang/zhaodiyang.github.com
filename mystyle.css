@@ -12,7 +12,8 @@ body{
 	font-size: 20px;
 	position: fixed;
 	padding:0px 50px;
-	margin: 0 0 100px 100px;
+	left:50%;
+	margin: 0 0 0 -475px;
 }
 
 #header #logo{
