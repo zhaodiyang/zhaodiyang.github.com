@@ -44,6 +44,38 @@ body{
     text-decoration:underline;
 }
 
+#footer{
+	width:900px;
+	height:90px;
+	background-color:#222222;
+	font-size: 15px;
+	font-family: Arial;
+	margin:0px auto 0px auto;
+}
+
+#footer p{
+	padding-top:40px;
+	padding-left:300px;
+}
+
+#footer #social{
+	float:left; 
+	padding-top:0px;
+}
+
+#footer #social li{
+	float:left; 
+	list-style:none;
+	padding-top: 5px; 
+	margin-left:10px;
+}
+
+h1{
+	font: 40px Georgia; 
+	color:#DDDDDD;
+	padding-left: 50px;
+}
+
 #container{
 	width:900px;
 	margin:0px auto -20px auto;
@@ -53,37 +85,30 @@ body{
 	padding-top:100px;
 }
 
-#container hr{
-	color: #000000;
+#container .content{
+	overflow:auto;
 }
 
-#footer{
-	width:900px;
-	height:90px;
-	background-color:#222222;
-	font-size: 20px;
-	font-family: Arial;
-	margin:0px auto 0px auto;
-}
-
-#footer p{
-	padding-top:40px;
-	padding-left:250px;
-
-}
-
-#footer #social{
+#container .content h2{
 	float:left; 
-	padding-top:0px;
-}
-#footer #social li{
-	float:left; 
-	list-style:none; 
-	margin-left:10px;
-}
-
-h1{
-	font: 40px 'Bree Serif', Georgia, serif; 
-	color:#DDDDDD;
+	padding-left: 50px;
+	width: 500px;
+	font: 20px Georgia; 
+	color:#AAAAAA;
 	padding-left: 50px;
 }
+
+#container .content p{
+	float:left; 
+	padding-left: 50px;
+	width: 500px;
+	font: 15px Georgia; 
+	color:#999999;
+}
+
+#container .content img{
+	float:right; 
+	padding-right: 50px;
+}
+
+
