@@ -89,25 +89,25 @@ h1{
 	overflow:auto;
 }
 
-#container .content h2{
-	float:left; 
+#container .content #left{
+	float:left;	
 	padding-left: 50px;
 	width: 500px;
+}
+
+#container .content h2{
 	font: 20px Georgia; 
 	color:#AAAAAA;
-	padding-left: 50px;
 }
 
 #container .content p{
-	float:left; 
-	padding-left: 50px;
-	width: 500px;
 	font: 15px Georgia; 
 	color:#999999;
+	text-align:left;
 }
 
-#container .content img{
-	float:right; 
+#container .content #right{
+	float:right;
 	padding-right: 50px;
 }
 
